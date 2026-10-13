@@ -1,4 +1,4 @@
-# AI Tips for Biology Students
+# AI Tips and Example Prompts for Biology (and in general)
 
 Prepared for BIOL 601: Introduction to Graduate Studies
 
