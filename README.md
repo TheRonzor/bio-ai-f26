@@ -4,7 +4,7 @@ Prepared for BIOL 601: Introduction to Graduate Studies
 
 Presented on: October 14, 2026
 
-Each of the prompt examples is provided as a Markdown file. Markdown is a plain-text and very lightweight language used to format documents. LLMs understand Markdown very well, and its lightweight formatting generally makes it easier to process than formats such as .docx or .pdf, which may require additional parsing or conversion by the LLM.
+Each of the prompt examples is provided as a Markdown file. Markdown is a plain-text and very lightweight language used to format documents. LLMs understand Markdown very well, and its lightweight formatting generally makes it easier to process than formats such as .docx or .pdf, which may require additional parsing or conversion by the LLM (and thus, more token usage).
 
 ## Contents
 
