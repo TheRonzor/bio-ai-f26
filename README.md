@@ -70,6 +70,6 @@ Funny as it may sound, if you want to minimize token usage and "save" the enviro
 
 > "why many token when few do trick"
 
-The way it is presented in this repository may make it look more complicated to implement than it actually is. You don't need to install anything, and you can easily write an instruction like this yourself in a simple Markdown file. The basic idea is to instruct the agent to avoid non-informative words in its replies.
+The way it is presented in the linked repository may make it look more complicated to implement than it actually is. You don't need to install anything, and you can easily write an instruction like this yourself in a simple Markdown file. The basic idea is to instruct the agent to avoid non-informative words in its replies.
 
 This isn't a joke. Claude Shannon's 1951 paper, [Prediction and Entropy of Printed English](https://www.princeton.edu/~wbialek/rome/refs/shannon_51.pdf), estimates that written English is approximately 75% redundant in an information-theoretic sense. In other words, much of what we write is statistically predictable from what came before it, and therefore carries relatively little _new_ information.
