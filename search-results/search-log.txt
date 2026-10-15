@@ -1,0 +1,210 @@
+Application of AI in Biology — search log
+Search date: 2026-10-14 (America/New_York). Date window: first peer-reviewed online publication 2025-01-01 through 2026-10-14.
+Target: up to 20 original peer-reviewed studies. AI must be central and applied to real biological data or experiments. Health studies must investigate biology; purely clinical decision studies are excluded.
+Ranking if more than 20 qualify: directness of the AI–biology application, strength of biological evaluation, and breadth as a tie breaker. No subfield quota was imposed.
+
+DATABASE AND ENGINE SEARCHES
+OpenAlex works API: search=<term>&filter=from_publication_date:2025-01-01,to_publication_date:2026-10-14,type:article&per-page=10.
+  protein design machine learning — 77,437 indexed hits; genome editing deep learning — 25,722; single cell spatial transcriptomics artificial intelligence — 12,441; biodiversity species machine learning — 18,653. These are broad discovery counts, not screened eligible totals.
+PubMed E-utilities esearch: (<term>) AND ("2025/01/01"[Date - Publication] : "2026/10/14"[Date - Publication]); retmax=10.
+  protein design machine learning — 2,650 hits; genome editing deep learning — 152; single cell spatial transcriptomics artificial intelligence — 484; biodiversity species machine learning — HTTP 429 rate limit, no count obtained.
+Publisher-focused web searches also used combinations of the four themes with 2025, 2026, Article, Nature, Oxford Academic, and Wiley; exact title and DOI lookups resolved candidates. Crossref /works/{DOI} records supplied complete author lists, journal, type, and first online publication dates. Publisher article pages and, where helpful, PubMed/PMC records confirmed study type and abstract findings.
+The broad counts are not a systematic-review flow diagram: search engines ranked results differently and were not exhaustively paginated. Twenty directly relevant studies were selected after screening the candidates and near misses below.
+Date check examples: the GASTON DOI contains “024” but the peer-reviewed article first appeared online on 2025-01-23; the Naert paper first appeared online on 2025-08-12 although a later issue carries a 2026 volume. Preprint dates and DOI suffixes did not replace first online journal dates.
+Reviewed Material is conservatively recorded as Abstract only for every included study. Some publisher pages exposed sections of the article, but methods and results were not systematically read end to end. No independent reanalysis was performed. Paywalled previews were a further limit for entries 2, 12 and 15.
+
+INCLUDED PAPERS — ONE ENTRY PER PAPER
+
+01. One-shot design of functional protein binders with BindCraft
+    Search terms: "protein design machine learning"; DOI lookup "10.1038/s41586-025-09429-6".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41586-025-09429-6).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41586-025-09429-6 — BindCraft uses AlphaFold2-based optimization to design protein binders. Its experimental tests span cell-surface receptors, allergens, bacterial toxin targets and Cas9, with reported target-dependent success. It directly tests whether AI-designed binders can act on biological proteins without extensive screening.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM1 — 2025 peer-reviewed review, not an original study.
+
+02. Accelerating protein engineering with fitness landscape modelling and reinforcement learning
+    Search terms: "protein design machine learning"; DOI lookup "10.1038/s42256-025-01103-w".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s42256-025-01103-w).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s42256-025-01103-w — The μProtein framework combines a mutational-effect model with reinforcement learning to search protein fitness landscapes. Benchmarks and laboratory tests on β-lactamase show that single-mutation training data can guide the discovery of higher-function multi-mutation variants.
+    Access/uncertainty: Publisher abstract reviewed; subscription preview limited access; findings are reported as authors’ results, not independently validated.
+    Near miss: NM2 — 2025 methods primer, not an original study.
+
+03. Biophysics-based protein language models for protein engineering
+    Search terms: "protein design machine learning"; DOI lookup "10.1038/s41592-025-02776-2".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41592-025-02776-2).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41592-025-02776-2 — METL pretrains a protein language model on biophysical simulations, then adapts it using experimental sequence–function data. It predicts properties including stability, catalytic activity and fluorescence, and designs functional GFP variants from a small training set. The study tests how physical knowledge can complement evolutionary sequence learning.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM3 — Review first published in 2024; wrong year and article type.
+
+04. Designer artificial environments for membrane protein synthesis
+    Search terms: "protein design machine learning"; DOI lookup "10.1038/s41467-025-59471-1".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41467-025-59471-1).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41467-025-59471-1 — MEMPLEX applies machine learning to experimental measurements of cell-free membrane-protein synthesis. It searches combinations of lipids, chemicals and chaperones across 28 membrane proteins and identifies conditions that synthesize previously difficult targets, connecting AI predictions to a practical biological production task.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM1 — 2025 peer-reviewed review, not an original study.
+
+05. AMPGen: an evolutionary information-reserved and diffusion-driven generative model for de novo design of antimicrobial peptides
+    Search terms: "protein design machine learning"; DOI lookup "10.1038/s42003-025-08282-7".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s42003-025-08282-7).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s42003-025-08282-7 — AMPGen uses a diffusion-based generative model and evolutionary sequence information to propose antimicrobial peptides. The authors synthesize and assay candidate peptides against Escherichia coli and Staphylococcus aureus, testing biological activity rather than relying on computational scores alone.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM3 — Review first published in 2024; wrong year and article type.
+
+06. Design of highly functional genome editors by modelling CRISPR–Cas sequences
+    Search terms: "genome editing deep learning"; DOI lookup "10.1038/s41586-025-09298-z".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41586-025-09298-z).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41586-025-09298-z — A biological language model trained on CRISPR-related sequences generates OpenCRISPR-1, an AI-designed genome editor. The study tests editing of human genomic targets, directly linking sequence generation with functional genome editing.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM4 — 2025 commentary, not original research.
+
+07. Custom CRISPR–Cas9 PAM variants via scalable engineering and machine learning
+    Search terms: "genome editing deep learning"; DOI lookup "10.1038/s41586-025-09021-y".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41586-025-09021-y).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41586-025-09021-y — PAMmla learns the relationship between engineered Cas9 protein sequence and DNA target-recognition specificity from a large experimental screen. The authors use predictions to identify custom Cas9 variants and test editing activity and off-target effects in biological systems.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM4 — 2025 commentary, not original research.
+
+08. Precise, predictable genome integrations by deep-learning-assisted design of microhomology-based templates
+    Search terms: "genome editing deep learning"; DOI lookup "10.1038/s41587-025-02771-0".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41587-025-02771-0).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41587-025-02771-0 — Deep-learning predictions of DNA repair outcomes guide the design of microhomology-based templates for CRISPR-mediated genome integration. Experiments show improved frame-retaining insertion and fewer deletions, making this a direct application of AI to genome-engineering biology.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM4 — 2025 commentary, not original research.
+
+09. Advancing regulatory variant effect prediction with AlphaGenome
+    Search terms: "genome editing deep learning"; DOI lookup "10.1038/s41586-025-10014-0".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41586-025-10014-0).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41586-025-10014-0 — AlphaGenome predicts many functional genomic measurements from long human and mouse DNA sequences at fine resolution. Its evaluation of regulatory variant effects addresses how AI can help interpret the biological consequences of noncoding sequence changes.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM5 — 2025 review, not an original study.
+
+10. Regulatory grammar in human promoters uncovered by MPRA-based deep learning
+    Search terms: "genome editing deep learning"; DOI lookup "10.1038/s41586-025-10093-z".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41586-025-10093-z).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41586-025-10093-z — PARM combines massively parallel reporter assays with a deep-learning model of human promoter activity. It identifies regulatory sequence patterns and tests predictions about transcription-factor effects, directly studying the molecular grammar of gene regulation.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM5 — 2025 review, not an original study.
+
+11. Nicheformer: a foundation model for single-cell and spatial omics
+    Search terms: "single cell spatial transcriptomics artificial intelligence"; DOI lookup "10.1038/s41592-025-02814-z".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41592-025-02814-z).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41592-025-02814-z — Nicheformer trains on dissociated and spatial single-cell transcriptomic data from human and mouse tissues. It predicts spatial context for cells and compares with models trained without spatial information, showing how AI can represent tissue microenvironments.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM6 — Preprint and duplicate version of the included peer-reviewed paper.
+
+12. Mapping the topography of spatial gene expression with interpretable deep learning
+    Search terms: "single cell spatial transcriptomics artificial intelligence"; DOI lookup "10.1038/s41592-024-02503-3".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41592-024-02503-3).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41592-024-02503-3 — GASTON uses an interpretable neural network to map spatial gene-expression gradients and tissue domains. Applications to brain and tumor tissue identify organized cell-state and expression patterns, making AI central to biological interpretation of spatial transcriptomic data.
+    Access/uncertainty: Publisher abstract reviewed; subscription preview limited access; findings are reported as authors’ results, not independently validated.
+    Near miss: NM7 — Preprint predating the 2025 peer-reviewed article; not counted separately.
+
+13. STAIG: Spatial transcriptomics analysis via image-aided graph contrastive learning for domain exploration and alignment-free integration
+    Search terms: "single cell spatial transcriptomics artificial intelligence"; DOI lookup "10.1038/s41467-025-56276-0".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41467-025-56276-0).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41467-025-56276-0 — STAIG integrates spatial transcriptomic measurements, location and histology images with graph contrastive learning. Tissue benchmarks and tumor-microenvironment analyses test whether combining these modalities improves identification of spatial biological regions.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM6 — Preprint and duplicate version of the included peer-reviewed paper.
+
+14. STORIES: learning cell fate landscapes from spatial transcriptomics using optimal transport
+    Search terms: "single cell spatial transcriptomics artificial intelligence"; DOI lookup "10.1038/s41592-025-02855-4".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s41592-025-02855-4).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41592-025-02855-4 — STORIES models cell-fate trajectories from spatial transcriptomics across time using neural-network-based optimal transport. The authors evaluate developmental and regeneration atlases and recover known marker trends while proposing additional candidate drivers of cell differentiation.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM6 — Preprint and duplicate version of the included peer-reviewed paper.
+
+15. Learning cell dynamics with neural differential equations
+    Search terms: "single cell spatial transcriptomics artificial intelligence"; DOI lookup "10.1038/s42256-025-01150-3".
+    Checked: OpenAlex thematic search; PubMed thematic search; Crossref DOI record; publisher article page (https://www.nature.com/articles/s42256-025-01150-3).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s42256-025-01150-3 — scDiffEq applies neural differential equations to single-cell profiles to infer cellular dynamics. Its evaluations include cell-fate prediction and analysis of differentiation, addressing the challenge of extracting temporal biological behavior from snapshot cell measurements.
+    Access/uncertainty: Publisher abstract reviewed; subscription preview limited access; findings are reported as authors’ results, not independently validated.
+    Near miss: NM6 — Preprint and duplicate version of the included peer-reviewed paper.
+
+16. A digital twin for real-time biodiversity forecasting with citizen science data
+    Search terms: "biodiversity species machine learning"; DOI lookup "10.1038/s41559-025-02966-3".
+    Checked: OpenAlex thematic search; PubMed ecology query attempted (HTTP 429); Crossref DOI record; publisher article page (https://www.nature.com/articles/s41559-025-02966-3).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41559-025-02966-3 — A continuously updated biodiversity model combines machine-learning bird-call classifications with citizen-science and long-term observations. Independent tests on Finnish bird data show improved spatiotemporal distribution predictions, demonstrating an AI-assisted ecological forecasting application.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM8 — 2025 progress/perspective article, not original research.
+
+17. Predicting microbial community structure and temporal dynamics by using graph neural network models
+    Search terms: "biodiversity species machine learning"; DOI lookup "10.1038/s41467-025-64175-7".
+    Checked: OpenAlex thematic search; PubMed ecology query attempted (HTTP 429); Crossref DOI record; publisher article page (https://www.nature.com/articles/s41467-025-64175-7).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41467-025-64175-7 — Graph neural networks use historical abundance measurements to forecast microbial community dynamics in 24 Danish wastewater-treatment plants. Tests also include a gut-microbiome dataset, directly applying AI to the temporal behavior of biological communities.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM8 — 2025 progress/perspective article, not original research.
+
+18. Common to rare transfer learning (CORAL) enables inference and prediction for a quarter million rare Malagasy arthropods
+    Search terms: "biodiversity species machine learning"; DOI lookup "10.1038/s41592-025-02823-y".
+    Checked: OpenAlex thematic search; PubMed ecology query attempted (HTTP 429); Crossref DOI record; publisher article page (https://www.nature.com/articles/s41592-025-02823-y).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1038/s41592-025-02823-y — CORAL transfers information from common species to improve inference for rare ones in large biodiversity surveys. It is evaluated on DNA metabarcoding data representing more than 255,000 Malagasy arthropod species, addressing a central sampling problem in ecology.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM9 — First published online 2024-12-27 despite a 2025 issue.
+
+19. Data Fusion for Integrative Species Identification using Deep Learning
+    Search terms: "biodiversity species machine learning"; DOI lookup "10.1093/sysbio/syaf026".
+    Checked: OpenAlex thematic search; PubMed ecology query attempted (HTTP 429); Crossref DOI record; publisher article page (https://academic.oup.com/sysbio/advance-article/doi/10.1093/sysbio/syaf026/8161735).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1093/sysbio/syaf026 — A deep-learning system combines DNA sequences and specimen images for species identification. Tests across four plant and animal datasets show that the fused inputs can improve classification, particularly where one data type alone fails to distinguish closely related species.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM9 — First published online 2024-12-27 despite a 2025 issue.
+
+20. DeepForestVision: Automated wildlife identification for camera traps of African tropical forests
+    Search terms: "biodiversity species machine learning"; DOI lookup "10.1002/2688-8319.70167".
+    Checked: OpenAlex thematic search; PubMed ecology query attempted (HTTP 429); Crossref DOI record; publisher article page (https://besjournals.onlinelibrary.wiley.com/doi/full/10.1002/2688-8319.70167).
+    Date searched: 2026-10-14.
+    Criteria: original peer-reviewed article; first online date in range; AI central to a biological system or question; real biological data or experiments.
+    Included: 10.1002/2688-8319.70167 — DeepForestVision classifies wildlife in African tropical-forest camera-trap photographs and videos. The authors train on multicountry field data and compare against existing classifiers, testing the practical value and limits of AI for biodiversity monitoring.
+    Access/uncertainty: Publisher abstract reviewed; full text was not systematically reviewed; findings are reported as authors’ results, not independently validated.
+    Near miss: NM10 — 2025 editorial rather than an original study.
+
+NEAR-MISS IDENTIFIERS (verified title/identifier and exclusion rationale)
+NM1. AI-driven protein design | 10.1038/s44222-025-00349-8 | 2025 peer-reviewed review, not an original study.
+NM2. Computational protein design | 10.1038/s43586-025-00383-1 | 2025 methods primer, not an original study.
+NM3. Machine learning for functional protein design | 10.1038/s41587-024-02127-0 | Review first published in 2024; wrong year and article type.
+NM4. Expansion of artificial intelligence for genome editing | 10.1038/s41594-025-01722-2 | 2025 commentary, not original research.
+NM5. Transformers and genome language models | 10.1038/s42256-025-01007-9 | 2025 review, not an original study.
+NM6. Nicheformer bioRxiv version | 10.1101/2024.04.15.589472 | Preprint and duplicate version of the included peer-reviewed paper.
+NM7. GASTON preprint | PMC10592770 | Preprint predating the 2025 peer-reviewed article; not counted separately.
+NM8. Generative AI as a tool to accelerate the field of ecology | 10.1038/s41559-024-02623-1 | 2025 progress/perspective article, not original research.
+NM9. InsectNet: Real-time identification of insects using an end-to-end machine learning pipeline | 10.1093/pnasnexus/pgae575 | First published online 2024-12-27 despite a 2025 issue.
+NM10. Sound science | 10.1038/s41559-025-02860-y | 2025 editorial rather than an original study.
+
+Search limitations: PubMed rate-limited the ecology query; ecology coverage was supplemented with OpenAlex and journal searches. OpenAlex counts include many irrelevant articles. Database indexing and online/issue dates can differ; first online publisher/Crossref dates govern inclusion.
